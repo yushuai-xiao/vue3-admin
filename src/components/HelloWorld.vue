@@ -119,6 +119,7 @@ export default defineComponent({
     msg: String
   }
 })
+console.log('test')
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
