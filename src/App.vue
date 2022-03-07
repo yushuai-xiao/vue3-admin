@@ -58,8 +58,8 @@ const handleClose = (done: () => void) => {
     })
 }
 let timer: any = null
-let show: any = ref(false)
-let count: any = ref(0)
+let show = ref(false)
+let count = ref(0)
 const showBtn = () => {
   console.log('123')
   show.value = false
